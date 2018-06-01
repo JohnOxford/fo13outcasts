@@ -275,7 +275,7 @@
 
 /obj/item/weapon/twohanded/superhammer
 	name = "super sledge"
-	desc = "A two-handed hammer manufactured by the Brotherhood of Steel. It has a large hydraulic piston behind the face plate to amplify force.
+	desc = "A two-handed hammer manufactured by the Brotherhood of Steel. It has a large hydraulic piston behind the face plate to amplify force."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "supersledgehammer0"
 	flags = CONDUCT
