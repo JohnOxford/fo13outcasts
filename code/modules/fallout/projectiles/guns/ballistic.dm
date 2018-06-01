@@ -1,7 +1,7 @@
 //Fallout 13 ballistic firearms directory
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/n99
-	name = "10-mm pistol"
+	name = "10mm pistol"
 	desc = "The N99 self-loading pistol is known for its ability to survive in the harshest of conditions.<br>This great weapon is able to be reliably restored to working condition, even after extended exposure to hard elements without maintenance."
 	icon_state = "n99"
 	item_state = "n99"
@@ -22,7 +22,7 @@
 	return
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/mp443
-	name = "MP443 pistol"
+	name = "MP443"
 	desc = "The MP443, a pistol of Russian origin with quite a high magazine capacity. Good luck finding more ammo."
 	icon_state = "mp443"
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -38,7 +38,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/rochell
-	name = "Stainless MP443 pistol"
+	name = "stainless MP443"
 	desc = "The MP443, a pistol of Russian origin with quite a high magazine capacity, albeit with a twist. This one appears to be almost entirely stainless steel and surprisingly well kempt, a rarity in weapons manufactured before the war. The slide of the gun appears to have the name ''Rochell'' carved semi-crudely into it, along with three notches below it."
 	icon_state = "rochell"
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -118,7 +118,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/lugerzim
-	name = "Lange Pistole 08"
+	name = "LP08"
 	desc = "The adoption of the Lange Pistole 08 or LP 08, aka the ''Artillery Luger'', was authorized by the German military on the 2nd of July 1913. This particular variation sports an 8-inch barrel, custom blue finish, and classy ivory grips with floral engraving. Bits of golden adornment such as on the extractor, frame screw and trigger suggest this firearm is worth quite a bit of pocket change."
 	icon_state = "zimgun"
 	icon = 'icons/fallout/objects/guns/zimgun.dmi'
@@ -169,7 +169,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/killerseven
-	name = "Killer7"
+	name = "Killer Seven"
 	desc = "An offshoot reproduction of the LAR Grizzly semi-automatic pistol (itself based on the 1911), unique in the fact that unlike other large bore handguns it doesn't rely on a gas operated system to cycle cartridges and utilizes heavy springs and solid steel construction to handle the massive cartridge it fires with minimal recoil. There seems to be a large scope mounted to the slide, granting the shooter a much longer sight radius. Chambered in .460 S&W Magnum."
 	icon_state = "killerseven"
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -376,7 +376,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/pistol/sm1912
 	name = "Steyr Model 1912"
-	desc = "The Steyr M1912, also known as the Steyr-Hahn, is a semi-automatic pistol developed in 1911 by the Austrian firm Steyr Mannlicher and designed by Karel Krnka, based on the mechanism of the Roth–Steyr M1907. The M1912 was originally chambered for the 9mm Steyr round, but after the annexation of Austria by Germany in 1938 the M1912 was taken into Wehrmacht service and about 60,000 were rechambered in 9mm Parabellum and remained in service until the end of the war. This seems to be one of those models, dipshit"
+	desc = "The Steyr M1912, also known as the Steyr-Hahn, is a semi-automatic pistol developed in 1911 by the Austrian firm Steyr Mannlicher and designed by Karel Krnka, based on the mechanism of the RothÂ–Steyr M1907. The M1912 was originally chambered for the 9mm Steyr round, but after the annexation of Austria by Germany in 1938 the M1912 was taken into Wehrmacht service and about 60,000 were rechambered in 9mm Parabellum and remained in service until the end of the war. This seems to be one of those models, dipshit"
 	icon_state = "sm1912"
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	item_state = "sm1912"
@@ -738,7 +738,7 @@
 /obj/item/weapon/gun/ballistic/automatic/pistol/p220
 	name = "SIG Sauer P220"
 	icon_state = "p220"
-	desc = "The SIG Sauer P220 is a semi-automatic pistol designed in 1975 by the SIG Arms AG division of Schweizerische Industrie Gesellschaft (now SIG Holding AG), and produced by J. P. Sauer & Sohn  in Eckernförde. Chambered in .45 ACP."
+	desc = "The SIG Sauer P220 is a semi-automatic pistol designed in 1975 by the SIG Arms AG division of Schweizerische Industrie Gesellschaft (now SIG Holding AG), and produced by J. P. Sauer & Sohn  in EckernfÃ¶rde. Chambered in .45 ACP."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	item_state = "p220"
 	origin_tech = "combat=2;materials=2"
@@ -913,7 +913,7 @@
 	name = "FN FAL"
 	icon_state = "fnfal"
 	item_state = "fnfal"
-	desc = "The FN FAL is a battle rifle designed by Belgian small arms designers Dieudonné Saive and Ernest Vervier and manufactured by FN Herstal. During the Cold War the FAL was adopted by many countries of the North Atlantic Treaty Organization (NATO), with the notable exception of the United States. It is one of the most widely used rifles in history, having been used by more than 90 countries. This particular model sports wooden furniture and an aftermarket conversion that allows it to fire more readily available .308 Winchester ammunition, which is very similar in size to the 7.62×51mm NATO it was originally chambered in."
+	desc = "The FN FAL is a battle rifle designed by Belgian small arms designers DieudonnÃ© Saive and Ernest Vervier and manufactured by FN Herstal. During the Cold War the FAL was adopted by many countries of the North Atlantic Treaty Organization (NATO), with the notable exception of the United States. It is one of the most widely used rifles in history, having been used by more than 90 countries. This particular model sports wooden furniture and an aftermarket conversion that allows it to fire more readily available .308 Winchester ammunition, which is very similar in size to the 7.62Ã—51mm NATO it was originally chambered in."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	origin_tech = "combat=3;materials=2"
 	mag_type = /obj/item/ammo_box/magazine/falmag
@@ -1100,7 +1100,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/ak74
 	name = "AK-74"
-	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons. This one features wooden furniture."
+	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62Ã—39mm chambering of earlier Kalashnikov-pattern weapons. This one features wooden furniture."
 	icon_state = "ak74"
 	item_state = "ak74"
 	slot_flags = SLOT_BACK
@@ -1114,8 +1114,8 @@
 	wielded_icon = "ak74-wielded"
 
 /obj/item/weapon/gun/ballistic/automatic/val
-	name = "AS Val"
-	desc = "The AS Val was a Soviet-designed assault rifle in the old pre-war world. Production began in the first half of the 1980s in the Central Research Institute of Precision Engineering (TSNIITOCHMASH), in the city of Klimovsk, Moscow region. The lead designer of the rifle was Pyotr Serdyukov. It has been rechambered to take the 5.56mm cartridge, and crudely enough seems to take AK-styled magazines as well."
+	name = "AS VAL"
+	desc = "The AS VAL was a Soviet-designed assault rifle in the old pre-war world. Production began in the first half of the 1980s in the Central Research Institute of Precision Engineering (TSNIITOCHMASH), in the city of Klimovsk, Moscow region. The lead designer of the rifle was Pyotr Serdyukov. It has been rechambered to take the 5.56mm cartridge, and crudely enough seems to take AK-styled magazines as well."
 	icon_state = "val"
 	item_state = "val"
 	slot_flags = SLOT_BACK
@@ -1130,7 +1130,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/ak74green
 	name = "AK-74"
-	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons. This one features OD-green furniture."
+	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62Ã—39mm chambering of earlier Kalashnikov-pattern weapons. This one features OD-green furniture."
 	icon_state = "ak74green"
 	item_state = "ak74green"
 	slot_flags = SLOT_BACK
@@ -1145,7 +1145,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/ak74m
 	name = "AK-74"
-	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons. This one features black synthetic furniture."
+	desc = "The AK-74 is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It has been rechambered to take the 5.56mm cartridge, replacing the 7.62Ã—39mm chambering of earlier Kalashnikov-pattern weapons. This one features black synthetic furniture."
 	icon_state = "ak74m"
 	item_state = "ak74m"
 	slot_flags = SLOT_BACK
@@ -1160,7 +1160,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/aksu74
 	name = "AKS-74U"
-	desc = "The shorter, carbine-like cousin of the full sized AK-74. It has been rechambered to take the 5.56mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons. This one features wooden furniture."
+	desc = "The shorter, carbine-like cousin of the full sized AK-74. It has been rechambered to take the 5.56mm cartridge, replacing the 7.62Ã—39mm chambering of earlier Kalashnikov-pattern weapons. This one features wooden furniture."
 	icon_state = "aksu74"
 	item_state = "aksu74"
 	slot_flags = SLOT_BACK
@@ -1175,7 +1175,7 @@
 
 /obj/item/weapon/gun/ballistic/automatic/aksu74green
 	name = "AKS-74U"
-	desc = "The shorter, carbine-like cousin of the full sized AK-74. It has been rechambered to take the 5.56mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons. This one features OD-green furniture."
+	desc = "The shorter, carbine-like cousin of the full sized AK-74. It has been rechambered to take the 5.56mm cartridge, replacing the 7.62Ã—39mm chambering of earlier Kalashnikov-pattern weapons. This one features OD-green furniture."
 	icon_state = "aksu74green"
 	item_state = "aksu74green"
 	slot_flags = SLOT_BACK
@@ -1218,7 +1218,7 @@
 	wielded_icon = "terminator-wielded"
 
 /obj/item/weapon/gun/ballistic/shotgun/winchesterrifle
-	name = "Repeating rifle"
+	name = "Winchester Model 1873"
 	desc = "This lever action rifle appears to have been based on a Winchester model 1873, but with an amazing magazine capacity and an outlandish supernatural quality to it you can't quite comprehend."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	icon_state = "winchester"
@@ -1278,7 +1278,7 @@
 	wielded_icon = "medicine-wielded"
 
 /obj/item/weapon/gun/ballistic/shotgun/henry
-    name = "Henry Big boy"
+    name = "Henry Big Boy"
     desc = "A reproduction of many infamous lever action rifles featuring brass hardware and a walnut stock, complete with a ten round magazine tube. Chambered in .44 Remington Magnum"
     icon = 'icons/fallout/objects/guns/ballistic.dmi'
     icon_state = "henry"
@@ -1293,7 +1293,7 @@
     wielded_icon = "henry-wielded"
 
 /obj/item/weapon/gun/ballistic/shotgun/henrytwo
-    name = "Henry Big boy"
+    name = "Henry Big Boy"
     desc = "A reproduction of many infamous lever action rifles featuring chromed hardware and a maple stock, complete with a ten round magazine tube. Chambered in .357 Magnum"
     icon = 'icons/fallout/objects/guns/ballistic.dmi'
     icon_state = "henrytwo"
