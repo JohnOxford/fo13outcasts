@@ -14,7 +14,7 @@
 	max_integrity = 200
 
 /obj/item/weapon/machete
-	name = "\proper machete"
+	name = "machete gladius
 	desc = "The machete appears to be forged from steel, almost like a gladius, as opposed to being makeshift.<br>It is the primary melee weapon of Caesar's Legion."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "machete"
@@ -152,7 +152,7 @@
 	return (BRUTELOSS|FIRELOSS)
 
 /obj/item/weapon/beartrapfist
-	name = "Bear trap fist"
+	name = "bear trap fist"
 	desc = "The bear trap fist is a peculiar weapon fashioned from bear traps and an old combat glove. The jaws of the trap are folded back past the normal open position, exposing a pressure plate. When a punch connects, the pressure plate makes contact with the target causing the trap to snap shut and inflict horrific wounds upon them."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "beartrapfist"
@@ -188,7 +188,7 @@
 	max_integrity = 200
 
 /obj/item/weapon/twohanded/legionspear
-	name = "Legionnaire's spear"
+	name = "legion spear"
 	desc = "A weapon both ranged and up close, favored by Caesar's Legion. It bears red cloth bindings and somewhat decorative carvings on it's tip, owing to the overall design scheme of the faction."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "legionspear"
@@ -275,7 +275,7 @@
 
 /obj/item/weapon/twohanded/superhammer
 	name = "super sledge"
-	desc = "Also called \"Superkuvalda\" - BoS produced these using the most modern weapons technology.<br>It's equipped with storage of kinetic energy to enhance the impact."
+	desc = "A two-handed hammer manufactured by the Brotherhood of Steel. It has a large hydraulic piston behind the face plate to amplify force.
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "supersledgehammer0"
 	flags = CONDUCT
@@ -329,7 +329,7 @@
 	digspeed = 45
 
 /obj/item/weapon/bowie
-	name = "Bowie knife"
+	name = "bowie knife"
 	desc = "A sturdy steel knife about eight inches in length with a solid brass crossguard and very basic walnut wood handle. Is it boo-ee or bow-ee?"
 	icon_state = "bowie_knife"
 	item_state = "bowie_knife"
@@ -347,7 +347,7 @@
 	max_integrity = 200
 
 /obj/item/weapon/reknife
-	name = "Combat knife"
+	name = "combat knife"
 	desc = "A finely crafted fighting knife with a blade made from high carbon steel and handle of solid composite."
 	icon_state = "reknife"
 	item_state = "reknife"
@@ -366,7 +366,7 @@
 	max_integrity = 200
 
 /obj/item/weapon/trench
-	name = "Trench knife"
+	name = "trench knife"
 	desc = "With a spiked knuckle-guard this incredibly sharp blade will not only last forever, but will put holes in things like stabbing butter with a pen."
 	icon_state = "trench_knife"
 	item_state = "trench_knife"
@@ -384,8 +384,8 @@
 	max_integrity = 200
 
 /obj/item/weapon/machetem
-	name = "Makeshift machete"
-	desc = "This makeshift machete looks to be made out of a rusted lawnmower blade, duct tape, and a shoddy wooden handle.<br>It is the primary melee weapon of Caesar's Legion."
+	name = "makeshift machete"
+	desc = "This makeshift machete looks to be made out of a rusted lawnmower blade, duct tape, and a shoddy wooden handle."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "machete2"
 	item_state = "machete2"
@@ -401,9 +401,9 @@
 	obj_integrity = 100
 	max_integrity = 100
 
-/obj/item/weapon/chinese
-	name = "Chinese officer sword"
-	desc = "A weapon of the commie menace. Was this piece of shit bought on Ebay or something? It seems to have a laughable edge compared to other bladed weapons. Typical Russian product"
+/obj/item/weapon/chinese/
+	name = "chinese officer sword"
+	desc = "A weapon of the commie menace."
 	icon_state = "chinese"
 	item_state = "chinese"
 	icon = 'icons/fallout/objects/melee.dmi'
@@ -419,8 +419,44 @@
 	obj_integrity = 250
 	max_integrity = 250
 
+/obj/item/weapon/chinese/worn
+	name = "worn chinese officer sword"
+	desc = "A weapon of the commie menace. This one has seen better days and has been heavily damaged"
+	icon_state = "chinese"
+	item_state = "chinese"
+	icon = 'icons/fallout/objects/melee.dmi'
+	flags = CONDUCT
+	slot_flags = SLOT_BELT | SLOT_BACK
+	force = 25
+	throwforce = 10
+	w_class = WEIGHT_CLASS_NORMAL
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
+	block_chance = 25
+	sharpness = IS_SHARP
+	obj_integrity = 150
+	max_integrity = 250
+
+/obj/item/weapon/chinese/perfect
+	name = "pristine chinese officer sword"
+	desc = "A weapon of the commie menace. This one shines with a high polish."
+	icon_state = "chinese"
+	item_state = "chinese"
+	icon = 'icons/fallout/objects/melee.dmi'
+	flags = CONDUCT
+	slot_flags = SLOT_BELT | SLOT_BACK
+	force = 40
+	throwforce = 30
+	w_class = WEIGHT_CLASS_NORMAL
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
+	block_chance = 60
+	sharpness = IS_SHARP
+	obj_integrity = 500
+	max_integrity = 500
+
 /obj/item/weapon/lumberaxe
-	name = "Lumber axe"
+	name = "hatchet"
 	desc = "A small hand-held axe for chopping wood, or heads."
 	icon_state = "lumberjack"
 	item_state = "lumberjack"
