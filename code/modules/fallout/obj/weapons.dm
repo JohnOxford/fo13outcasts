@@ -14,7 +14,7 @@
 	max_integrity = 200
 
 /obj/item/weapon/machete
-	name = "machete gladius
+	name = "machete gladius"
 	desc = "The machete appears to be forged from steel, almost like a gladius, as opposed to being makeshift.<br>It is the primary melee weapon of Caesar's Legion."
 	icon = 'icons/fallout/objects/melee.dmi'
 	icon_state = "machete"
