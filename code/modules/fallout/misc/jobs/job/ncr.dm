@@ -1,7 +1,7 @@
 //Fallout 13 New California Republic faction directory
 
 /datum/job/general
-	title = "General"
+	title = "NCR General"
 	desc = "The fate of civilization rests on your shoulders.<br>You were chosen to write history anew.<br>Make a two-headed bear proud."
 	flag = GENERAL
 	department_head = list("NCR Command HQ")
@@ -49,12 +49,12 @@
 	minimal_access = list()
 
 /datum/outfit/job/general
-	name = "General"
+	name = "NCR General"
 	id = null
 	gloves = /obj/item/clothing/gloves/f13/military
 	uniform = /obj/item/clothing/under/f13/general
 	shoes = /obj/item/clothing/shoes/laceup
-	suit = null
+	suit = /obj/item/clothing/suit/armor/f13/sergeant
 	belt = /obj/item/weapon/storage/belt/military/army
 	head = /obj/item/clothing/head/f13/sergeant
 	weapon = /obj/item/weapon/gun/ballistic/automatic/assault_rifle
@@ -68,7 +68,7 @@
 //NCR Sergeant
 
 /datum/job/ncr_sergeant
-	title = "Sergeant"
+	title = "NCR Sergeant"
 	desc = "You have to remind Troopers to speak only when spoken to, and that the first and last words out of their filthy sewers will be \"Sir\"."
 	flag = NCR_SERGEANT
 	department_head = list("general")
@@ -114,7 +114,7 @@
 	minimal_access = list()
 
 /datum/outfit/job/ncr_sergeant
-	name = "Sergeant"
+	name = "NCR Sergeant"
 	id = null
 	gloves = /obj/item/clothing/gloves/f13/military
 	uniform = /obj/item/clothing/under/f13/ncr_officer
@@ -131,7 +131,7 @@
 	id = /obj/item/weapon/card/id/ncr
 
 /datum/job/vranger
-	title = "Veteran Ranger"
+	title = "NCR Veteran Ranger"
 	desc = "You are a shadow. No one can hear you coming - and if they see you, they know they're a goner."
 	flag = RANGER
 	department_head = list("NCR Command HQ")
@@ -175,7 +175,7 @@
 	minimal_access = list()
 
 /datum/outfit/job/vranger
-	name = "Veteran Ranger"
+	name = "NCR Veteran Ranger"
 	gloves = /obj/item/clothing/gloves/f13/military
 	uniform = /obj/item/clothing/under/f13/mechanic
 	shoes = /obj/item/clothing/shoes/f13/military/light
@@ -192,7 +192,7 @@
 	id = /obj/item/weapon/card/id/ncr
 
 /datum/job/trooper
-	title = "Trooper"
+	title = "NCR Trooper"
 	desc = "I am a soldier and I'm marching on, I am a warrior and this is my song!"
 	flag = TROOPER
 	department_head = list("general", "ncr_sergeant")
