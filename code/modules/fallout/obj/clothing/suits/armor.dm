@@ -332,6 +332,7 @@
 	self_weight = 35
 	slowdown = 1
 	armor = list(melee = 60, bullet = 40, laser = 30, energy = 10, bomb = 15, bio = 40, rad = 20, fire = 40, acid = 30)
+	NoDelimb = 1
 
 /obj/item/clothing/suit/armor/f13/power_armor
 	w_class = WEIGHT_CLASS_HUGE
@@ -344,7 +345,7 @@
 	strip_delay = 200
 	resistance_flags = FIRE_PROOF | UNACIDABLE
 	self_weight = 35
-
+	NoDelimb = 1
 
 /obj/item/clothing/suit/armor/f13/power_armor/mob_can_equip(mob/user, slot)
 	if(ishuman(user))
