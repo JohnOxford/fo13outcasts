@@ -11,9 +11,13 @@
 
 /mob/living/carbon/check_projectile_dismemberment(obj/item/projectile/P, def_zone)
 	var/obj/item/bodypart/affecting = get_bodypart(def_zone)
+	if(affecting && istype(affecting, /obj/item/clothing))
+		var/obj/item/clothing/C = affecting
+		if(c.NoDelimb)
+			return
 	if(affecting && affecting.dismemberable && affecting.get_damage() >= (affecting.max_damage - P.dismemberment))
 		affecting.dismember(P.damtype)
-
+	    
 /mob/living/carbon/hitby(atom/movable/AM, skipcatch, hitpush = 1, blocked = 0)
 	if(!skipcatch)	//ugly, but easy
 		if(in_throw_mode && !get_active_held_item())	//empty active hand and we're in throw mode
