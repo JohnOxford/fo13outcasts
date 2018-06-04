@@ -14,6 +14,7 @@
 	put_on_delay = 10
 	strip_delay = 20
 	self_weight = 3
+	NoDelimb = 1
 
 /obj/item/clothing/head/helmet/f13/tribal
 	name = "tribal power helmet"
@@ -26,6 +27,7 @@
 	put_on_delay = 10
 	strip_delay = 30
 	self_weight = 2
+	NoDelimb = 1
 
 /obj/item/clothing/head/helmet/f13/motorcycle
 	name = "motorcycle helmet"
@@ -360,6 +362,7 @@
 	var/on = 0
 	light_color = LIGHT_COLOR_YELLOW
 	icon = 'icons/fallout/clothing/hats.dmi'
+	NoDelimb = 1
 
 /obj/item/clothing/head/helmet/power_armor/proc/toogle_light(mob/user)
 	on = !on
